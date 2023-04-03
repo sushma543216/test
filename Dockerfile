@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-COPY demo-0.0.1-SNAPSHOT.jar  /usr/app/
+COPY target/demo-0.0.1-SNAPSHOT.jar  /usr/app/
 
 WORKDIR /usr/app/
 
